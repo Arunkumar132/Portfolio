@@ -78,7 +78,7 @@ const About = () => {
             >
               <Button
                 size="lg"
-                className="gradient-primary rounded-full hover:scale-105 transition-transform"
+                className="gradient-primary rounded-full hover:scale-105 transition-transform mt-8"
               >
                 <Download className="mr-2 w-4 h-4" />
                 Download CV

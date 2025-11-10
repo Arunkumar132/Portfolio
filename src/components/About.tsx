@@ -70,13 +70,20 @@ const About = () => {
             </div>
 
             {/* Download CV Button */}
-            <Button
-              size="lg"
-              className="gradient-primary rounded-full hover:scale-105 transition-transform"
+            <a
+              href="/Arunkumar_Resume.pdf"
+              download="Arunkumar_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Download className="mr-2 w-4 h-4" />
-              Download CV
-            </Button>
+              <Button
+                size="lg"
+                className="gradient-primary rounded-full hover:scale-105 transition-transform"
+              >
+                <Download className="mr-2 w-4 h-4" />
+                Download CV
+              </Button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,33 +1,33 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import project1 from '@/assets/project1.jpg';
-import project2 from '@/assets/project2.jpg';
+import project1 from '@/assets/project1.png';
+import project2 from '@/assets/project2.png';
 import project3 from '@/assets/project3.jpg';
 
 const Projects = () => {
   const projects = [
     {
       image: project1,
-      title: 'AI-Powered Chatbot',
-      description: 'Intelligent conversational AI using natural language processing for customer support automation.',
-      tags: ['AI', 'NLP', 'Machine Learning'],
-      github: '',
-      demo: '',
+      title: 'Book Recommendation System',
+      description: 'Built a book recommendation system using KNN-based collaborative filtering and deployed it on Streamlit for real-time suggestions.',
+      tags: ['Python', 'Pandas', 'Scikit-Learn', 'Streamlit'],
+      github: 'https://github.com/Arunkumar132/Book_Recommandation_System',
+      demo: '', 
     },
     {
       image: project2,
-      title: 'Image Classification System',
-      description: 'Deep learning model for image recognition and classification with 95% accuracy using CNN.',
-      tags: ['Deep Learning', 'Computer Vision', 'TensorFlow'],
-      github: '',
+      title: 'GenDB - Text to SQL Tool',
+      description: 'AI tool that converts natural language queries to SQL using Gemini Pro API, enabling easy database interaction without SQL knowledge.',
+      tags: ['AI', 'NLP', 'Streamlit', 'Python'],
+      github: 'https://github.com/Arunkumar132/GenDB',
       demo: '',
     },
     {
       image: project3,
-      title: 'Predictive Analytics Dashboard',
-      description: 'Real-time data analytics platform with ML-powered predictions and interactive visualizations.',
-      tags: ['Machine Learning', 'Web App', 'Data Science'],
-      github: '',
+      title: 'Construction Company Website',
+      description: 'Developed a responsive and modern website for a construction firm to showcase projects and services.',
+      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
+      github: 'https://github.com/Arunkumar132/Builder_website.git',
       demo: '',
     },
   ];

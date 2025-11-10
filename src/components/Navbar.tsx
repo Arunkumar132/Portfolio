@@ -41,7 +41,6 @@ const Navbar = () => {
     { id: 'about', label: 'About' },
     { id: 'services', label: 'Services' },
     { id: 'projects', label: 'Projects' },
-    { id: 'testimonials', label: 'Testimonials' },
     { id: 'contact', label: 'Contact' },
   ];
 
@@ -60,7 +59,7 @@ const Navbar = () => {
         </button>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 items-center gap-8">
           {navItems.map((item) => (
             <button
               key={item.id}
@@ -73,6 +72,7 @@ const Navbar = () => {
             </button>
           ))}
         </div>
+
 
         {/* Mobile Menu Button */}
         <Button

@@ -14,7 +14,7 @@ const Footer = () => {
               className="rounded-full hover:bg-primary/10"
               asChild
             >
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/arunkumar-m-763000254" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
             </Button>
@@ -24,7 +24,7 @@ const Footer = () => {
               className="rounded-full hover:bg-primary/10"
               asChild
             >
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Arunkumar132" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
             </Button>
@@ -44,7 +44,7 @@ const Footer = () => {
               className="rounded-full hover:bg-primary/10"
               asChild
             >
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/_arun._.kumar._official?igsh=MWQwb3QzYzdwY3N0cw==" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-5 h-5" />
               </a>
             </Button>
@@ -52,7 +52,6 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-2">
-            Made with <Heart className="w-4 h-4 fill-primary text-primary" /> by Arunkumar M
           </p>
           <p className="text-xs text-muted-foreground">
             © 2024 All rights reserved.

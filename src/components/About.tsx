@@ -12,22 +12,6 @@ const About = () => {
     { name: 'App Development', level: 80 },
   ];
 
-  const education = [
-    {
-      degree: "B.Tech in Artificial Intelligence and Data Science",
-      institution: "Coimbatore Institute of Technology",
-      duration: "2021 - 2025",
-      details:
-        "Currently pursuing final year with hands-on experience in machine learning, deep learning, and software development. Department Secretary and active project developer in AI-driven applications.",
-    },
-    {
-      degree: "Higher Secondary Education",
-      institution: "Government Higher Secondary School, Coimbatore",
-      duration: "2019 - 2021",
-      details:
-        "Specialized in Computer Science with strong fundamentals in mathematics, logic, and programming.",
-    },
-  ];
 
   return (
     <section id="about" className="py-20 relative">

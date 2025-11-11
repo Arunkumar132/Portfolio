@@ -39,7 +39,7 @@ const Hero = () => {
               Hi, I'm <span className="gradient-text">Arunkumar M</span>
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground font-light">
-              Software Engineer (AI) | 1+ Years Experience
+              Software Engineer | 1+ Years Experience in Freelancing
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Building intelligent applications with AI and machine learning. 

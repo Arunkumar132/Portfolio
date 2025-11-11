@@ -12,6 +12,23 @@ const About = () => {
     { name: 'App Development', level: 80 },
   ];
 
+  const education = [
+    {
+      degree: "B.Tech in Artificial Intelligence and Data Science",
+      institution: "Coimbatore Institute of Technology",
+      duration: "2021 - 2025",
+      details:
+        "Currently pursuing final year with hands-on experience in machine learning, deep learning, and software development. Department Secretary and active project developer in AI-driven applications.",
+    },
+    {
+      degree: "Higher Secondary Education",
+      institution: "Government Higher Secondary School, Coimbatore",
+      duration: "2019 - 2021",
+      details:
+        "Specialized in Computer Science with strong fundamentals in mathematics, logic, and programming.",
+    },
+  ];
+
   return (
     <section id="about" className="py-20 relative">
       <div className="container mx-auto px-4">
@@ -40,11 +57,11 @@ const About = () => {
               <p className="text-muted-foreground leading-relaxed">
                 With 1+ years of experience in freelance software engineering, I specialize in building 
                 intelligent applications powered by AI and machine learning. My expertise spans 
-                from developing ML models to creating full-stack applications that solve real world 
+                from developing ML models to creating full-stack applications that solve real-world 
                 problems.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I focus on leveraging cutting edge AI technologies to build scalable solutions, 
+                I focus on leveraging cutting-edge AI technologies to build scalable solutions, 
                 while also crafting beautiful and intuitive user interfaces for web and mobile 
                 applications.
               </p>
@@ -65,6 +82,25 @@ const About = () => {
                       style={{ width: `${skill.level}%` }}
                     />
                   </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Education Section */}
+            <div className="space-y-4 pt-6">
+              <h4 className="text-xl font-semibold">Education</h4>
+              {education.map((edu, index) => (
+                <div
+                  key={index}
+                  className="glass-card p-4 rounded-xl transition-transform hover:scale-[1.02]"
+                >
+                  <h5 className="font-semibold text-lg">{edu.degree}</h5>
+                  <p className="text-muted-foreground text-sm">
+                    {edu.institution} | {edu.duration}
+                  </p>
+                  <p className="text-muted-foreground text-sm mt-2">
+                    {edu.details}
+                  </p>
                 </div>
               ))}
             </div>

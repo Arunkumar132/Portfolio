@@ -6,6 +6,8 @@ import Projects from '@/components/Projects';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import ProfessionalExperience from '@/components/Experience';
+import LeadershipActivities from '@/components/LeadershipActivities';
 
 const Index = () => {
   return (
@@ -13,8 +15,10 @@ const Index = () => {
       <Navbar />
       <Hero />
       <About />
+      <ProfessionalExperience />
       <Services />
       <Projects />
+      <LeadershipActivities />
       <Contact />
       <Footer />
     </div>

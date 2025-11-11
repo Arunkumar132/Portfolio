@@ -12,7 +12,6 @@ const About = () => {
     { name: 'App Development', level: 80 },
   ];
 
-
   return (
     <section id="about" className="py-20 relative">
       <div className="container mx-auto px-4">
@@ -66,25 +65,6 @@ const About = () => {
                       style={{ width: `${skill.level}%` }}
                     />
                   </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Education Section */}
-            <div className="space-y-4 pt-6">
-              <h4 className="text-xl font-semibold">Education</h4>
-              {education.map((edu, index) => (
-                <div
-                  key={index}
-                  className="glass-card p-4 rounded-xl transition-transform hover:scale-[1.02]"
-                >
-                  <h5 className="font-semibold text-lg">{edu.degree}</h5>
-                  <p className="text-muted-foreground text-sm">
-                    {edu.institution} | {edu.duration}
-                  </p>
-                  <p className="text-muted-foreground text-sm mt-2">
-                    {edu.details}
-                  </p>
                 </div>
               ))}
             </div>

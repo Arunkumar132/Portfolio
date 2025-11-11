@@ -35,10 +35,10 @@ const About = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold gradient-text">
-                Software Engineer & AI Specialist
+                Freelance Software Engineer
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                With 1+ years of experience in software engineering, I specialize in building 
+                With 1+ years of experience in freelance software engineering, I specialize in building 
                 intelligent applications powered by AI and machine learning. My expertise spans 
                 from developing ML models to creating full-stack applications that solve real world 
                 problems.
